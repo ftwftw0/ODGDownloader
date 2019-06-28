@@ -1,0 +1,112 @@
+*#
+*~*
+*~
+.git/*
+.idea/*
+*.o
+ipch
+
+# Remove build files
+server/game/build
+server/game/lib/*/build
+
+# Python cache
+__pycache__
+download
+
+# Git files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Packages are not included
+
+node_modules/*
+node_modules/
+node_modules/.bin/
+Babylon.js/
+
+# Useless Textures not included
+public/assets/textures/Arroway\ Textures\ -\ Concrete\ Volume\ one
+public/assets/textures/55_Texture_Background_Set_06
+
+# Useless Models
+public/assets/models/*
+
+
+yarn.lock
+
+node_modules/*
+node_modules/
+node_modules/.bin/
+Babylon.js/
+
+# Useless Textures not included
+public/assets/textures/Arroway\ Textures\ -\ Concrete\ Volume\ one
+public/assets/textures/55_Texture_Background_Set_06
+
+# Useless Models
+public/assets/models/*
+
+
+yarn.lock
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+**/CmakeFiles/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
+server/game/lib/
